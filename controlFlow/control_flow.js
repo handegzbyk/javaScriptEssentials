@@ -48,3 +48,20 @@ console.log("User Category:", userCategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+
+//Practice Task
+
+let role = "Employee";
+let access;
+
+if (role == "Employee") {
+    access = "Allowed to Dietary Services";
+} else if (role == "Enrolled Member") {
+    access = "Allowed to Dietary Services";
+} else if (role == "Subscriber") {
+    access = " Partially Allowed to Dietary Services";
+} else {
+    access = "Not Allowed to Dietary Services";
+}    
+
+console.log(access);
